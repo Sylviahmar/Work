@@ -1,5 +1,5 @@
-Public class PrimeExample{    
- public Static void main(String args[]){    
+public class PrimeExample{    
+ public static void main(String args[]){    
   int i,m=0,flag=0;      
   int n=3;//it is the number to be checked    
   m=n/2;      
@@ -10,7 +10,7 @@ Public class PrimeExample{
     if(n%i==0){      
      System.out.println(n+" is not prime number");      
      flag=1;      
-     break      
+     break;      
     }      
    }      
    if(flag==0)  { System.out.println(n+" is prime number"); }  
